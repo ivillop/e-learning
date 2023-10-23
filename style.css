@@ -1,0 +1,63 @@
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.card {
+    position: unset;
+}
+
+img {
+    width: 2.5rem;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -130px;
+}
+
+.dropdown-item {
+    text-align: right;
+}
+
+.hero {
+    background-image: url(https://wallpaperaccess.com/full/5506731.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.course:hover {
+    transition: all .2s ease-in-out;
+    background-color: #96e5ff;
+    box-shadow: 5px 5px 10px 0 black;
+}
+
+.card {
+    width: 45%
+}
+
+.division {
+    gap: 5rem
+}
+
+a.division:hover {
+    transition: all .2s ease-in-out;
+    background-color: #96e5ff;
+    box-shadow: 5px 5px 10px 0 black;
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+@media screen and (max-width: 768px)  {
+    .card {
+        width: 100%
+    }
+}
